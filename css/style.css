@@ -1161,6 +1161,10 @@ ul.slider-pagination {
   min-width: 70px;
 }
 
+.thing-three {
+  margin: -10px 0 0 0;
+}
+
 .light {
   color: #b9b8b6;
 }

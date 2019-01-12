@@ -67,34 +67,34 @@
               <table>
                 <tr class="basket-row">
                   <td><a class="cart-link-one"></a></td>
-                  <td>
-                    <td class="orange-strawberry">
-                      <img class="name-orange-strawberry" src="img/icecream-orange.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
-                      <p class="basket-item-text">Пломбир с апельсиновым джемом</p>
-                    </td>
+                  <td class="orange-strawberry">
+                    <img class="name-orange-strawberry" src="img/icecream-orange.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
+                    <p class="basket-item-text">Пломбир с апельсиновым джемом</p>
                   </td>
                   <td>
-                    <p class="thing-one">1.5кг Х <span class="light">200 руб.</p></span></td>
+                    <p class="thing-one">1.5кг Х <span class="light">200 руб.</span></p>
+                  </td>
                   <td>
                     <p class="thing-two">300 руб.</p>
                   </td>
                 </tr>
                 <tr class="basket-row last-item">
                   <td><a class="cart-link-two"></a></td>
-                  <td>
-                    <td class="orange-strawberry">
-                      <img class="name-orange-strawberry" src="img/icecream-strawberry.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
-                      <p class="basket-item-text">Клубничный пломбир с присыпкой из белого шоколада</p>
-                    </td>
+                  <td class="orange-strawberry">
+                    <img class="name-orange-strawberry" src="img/icecream-strawberry.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
+                    <p class="basket-item-text">Клубничный пломбир с присыпкой из белого шоколада</p>
                   </td>
                   <td>
-                    <p class="thing-one">1.5кг Х <span class="light">300 руб.</p></span></td>
+                    <p class="thing-one">1.5кг Х <span class="light">300 руб.</span></p>
+                  </td>
                   <td>
                     <p class="thing-two">450 руб.</p>
                   </td>
                 </tr>
-                <tr>
-                  <td class="result" colspan="5">Итого: 750 руб.</td>
+                <tr class="result">
+                  <td>
+                    <p class="thing-three">Итого: 750 руб.</p>
+                  </td>
                 </tr>
               </table>
               <button class="btn make-order">Оформить заказ</button>
@@ -106,10 +106,6 @@
         <div class="time"> C 10 до 20, ежедневно
         </div>
         <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></div>
-    </header>
-    </li>
-    </ul>
-    </nav>
     </header>
     <main>
       <ul class="breadcrumbs">
@@ -128,18 +124,18 @@
         <form action="http://echo.htmlacademy.ru" method="get">
           <div class="catalog-filter-form">
             <div>
-              <legend class="catalog-filter-title-one">Сортировка:</legend>
+              <div class="catalog-filter-title-one">Сортировка:</div>
               <div class="catalog-filter-group">
                 <select class="sort-select">
                   <option class="select-list" value="popular" selected>по популярности</option>
-                  <option class="select-list" value="expensive"><a href="#">сначала недорогие</a></option>
-                  <option class="select-list" value="notexpensive"><a href="#">сначала дорогие</a></option>
-                  <option class="select-list" value="fat"><a href="#">по жирности</a></option>
+                  <option class="select-list" value="expensive">сначала недорогие</option>
+                  <option class="select-list" value="notexpensive">сначала дорогие</option>
+                  <option class="select-list" value="fat">по жирности</option>
                 </select>
               </div>
             </div>
             <div>
-              <legend class="catalog-filter-title-two">Цена:100 руб. - 500 руб.</legend>
+              <div class="catalog-filter-title-two">Цена:100 руб. - 500 руб.</div>
               <div class="catalog-range-group">
                 <div class="bar"></div>
                 <div class="toggle-one"></div>
@@ -149,35 +145,31 @@
               </div>
             </div>
             <div class="fat">
-              <legend class="catalog-filter-title-three">Жирность:</legend>
+              <div class="catalog-filter-title-three">Жирность:</div>
               <fieldset class="radio-fat-group">
-                <form class="radio-list">
-                  <input type="radio" name="fat" id="zero">
-                  <label class="label-text-one" for="zero">0%</label>
-                  <input type="radio" name="fat" id="ten" checked>
-                  <label class="label-text-one" for="ten">до 10%</label>
-                  <input type="radio" name="fat" id="thirty">
-                  <label class="label-text-one" for="thirty">до 30%</label>
-                  <input type="radio" name="fat" id="more-thirty">
-                  <label class="label-text-one" for="more-thirty">выше 30%</label>
-                </form>
+                <input type="radio" name="fat" id="zero">
+                <label class="label-text-one" for="zero">0%</label>
+                <input type="radio" name="fat" id="ten" checked>
+                <label class="label-text-one" for="ten">до 10%</label>
+                <input type="radio" name="fat" id="thirty">
+                <label class="label-text-one" for="thirty">до 30%</label>
+                <input type="radio" name="fat" id="more-thirty">
+                <label class="label-text-one" for="more-thirty">выше 30%</label>
               </fieldset>
             </div>
             <div class="filter-wrapper">
-              <legend class="catalog-filter-title-four">Наполнители:</legend>
+              <div class="catalog-filter-title-four">Наполнители:</div>
               <fieldset class="filter-checkbox-group">
-                <form class="checkbox-list">
-                  <input type="checkbox" name="chocolate" id="chocolate" checked>
-                  <label class="label-text-two" for="chocolate">шоколадные</label>
-                  <input type="checkbox" name="sugar" id="sugar" checked>
-                  <label class="label-text-two" for="sugar">сахарные присыпки</label>
-                  <input type="checkbox" name="fruits" id="fruits">
-                  <label class="label-text-two" for="fruits">фрукты</label>
-                  <input type="checkbox" name="syrup" id="syrup">
-                  <label class="label-text-two" for="syrup">сиропы</label>
-                  <input type="checkbox" name="jam" id="jam">
-                  <label class="label-text-two" for="jam">джемы</label>
-                </form>
+                <input type="checkbox" name="chocolate" id="chocolate" checked>
+                <label class="label-text-two" for="chocolate">шоколадные</label>
+                <input type="checkbox" name="sugar" id="sugar" checked>
+                <label class="label-text-two" for="sugar">сахарные присыпки</label>
+                <input type="checkbox" name="fruits" id="fruits">
+                <label class="label-text-two" for="fruits">фрукты</label>
+                <input type="checkbox" name="syrup" id="syrup">
+                <label class="label-text-two" for="syrup">сиропы</label>
+                <input type="checkbox" name="jam" id="jam">
+                <label class="label-text-two" for="jam">джемы</label>
               </fieldset>
             </div>
             <button class="btn-apply" type="submit">Применить</button>
@@ -460,7 +452,6 @@
         </div>
       </div>
     </footer>
-  </div>
   </div>
 </body>
 
