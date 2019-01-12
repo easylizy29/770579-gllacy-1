@@ -1327,10 +1327,10 @@ ul.slider-pagination {
 .contact-message {
   position: absolute;
   display: block;
-  cursor:text;
+  cursor: text;
   left: 40px;
   color: #999;
-  z-index:3;
+  z-index: 3;
   transition: 0.25s;
 }
 
