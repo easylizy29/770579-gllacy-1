@@ -23,7 +23,7 @@ a {
 .btn {
   display: inline-block;
   padding: 10px 22px;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 700;
   vertical-align: top;
@@ -222,7 +222,7 @@ ul.slider-pagination {
 
 .breadcrumbs {
   display:flex;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 18.5px;
   color: #ffffff;
   text-decoration: underline;
@@ -247,15 +247,15 @@ ul.slider-pagination {
 }
 
 .page-title {
-  font-size: 35px;
+  /* font-size: 35px; */
   margin: -4px 0 24px 0;
   padding: 0 0 0 0;
 }
 
-.site-navigation a {
+.site-navigation  {
   display: block;
   list-style: none;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .site-navigation {
@@ -335,7 +335,6 @@ ul.slider-pagination {
   padding: 0;
   list-style: none;
   color: #323232;
-  font-size: 14px;
   line-height: 16px;
   font-weight: 400;
 }
@@ -344,7 +343,6 @@ ul.slider-pagination {
   list-style: none;
   font-size: 14px;
   font-family: "Roboto", "Arial", sans-serif;
-  color: rgb(50, 50, 50);
   line-height: 1.143;
   text-align: left;
   z-index: 358;
@@ -355,7 +353,6 @@ ul.slider-pagination {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  color: #323232;
 }
 
 .sub-list:hover {
@@ -407,7 +404,6 @@ ul.slider-pagination {
 
 .main-navigation {
   display: flex;
-  font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   list-style: none;
@@ -459,6 +455,7 @@ ul.slider-pagination {
   flex-direction: column;
   padding-left: 25px;
   font-size: 14px;
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
   display: block;
@@ -469,9 +466,9 @@ ul.slider-pagination {
 .phone {
   flex-direction: column;
   padding-left: 25px;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 5px;
-  font-weight: 400;
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
   display: block;
@@ -574,6 +571,7 @@ ul.slider-pagination {
 
 .subscribe-text {
   font-size: 16px;
+  font-weight: 400;
   line-height: 22px;
   color: #5a5a5a;
   padding: 12px 0 0 20px;
@@ -604,7 +602,7 @@ ul.slider-pagination {
   height: 44px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 44px;
 }
 
@@ -681,7 +679,7 @@ ul.slider-pagination {
 
 .ruble {
   font-family: "Roboto","Arial",sans-serif;
-  font-size: 45px;
+  /* font-size: 45px; */
   line-height: 45px;
   font-weight: 700;
   position: absolute;
@@ -701,7 +699,7 @@ ul.slider-pagination {
 
 .weight-0 {
   font-family: "Roboto","Arial",sans-serif;
-  font-size: 45px;
+  /* font-size: 45px; */
   line-height: 45px;
   font-weight: 700;
   color: rgba(255,255,255,1);
@@ -709,7 +707,7 @@ ul.slider-pagination {
   }
 
 .catalog-item-link {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 22px;
   font-weight: 500;
   color: white;
@@ -728,7 +726,7 @@ ul.slider-pagination {
 
 .catalog-item-pay {
   font-family: "Roboto","Arial",sans-serif;
-  font-size: 45px;
+  /* font-size: 45px; */
   line-height: 45px;
   font-weight: 700;
   position: relative;
@@ -767,7 +765,7 @@ ul.slider-pagination {
 }
 
 .catalog-filter-form input[type="submit"] {
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: "Roboto", "Arial", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 1.125;
@@ -803,7 +801,7 @@ ul.slider-pagination {
   padding: 2px 21px 16px 18px;
   border-radius: 15px;
   margin-bottom: 40px;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 17px;
   font-weight: 400;
 }
@@ -824,6 +822,7 @@ ul.slider-pagination {
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .about-item-natural-products {
@@ -831,6 +830,7 @@ ul.slider-pagination {
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .about-item-purchase {
@@ -838,6 +838,7 @@ ul.slider-pagination {
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .about-item-quality {
@@ -845,6 +846,7 @@ ul.slider-pagination {
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .about-title {
@@ -934,7 +936,7 @@ ul.slider-pagination {
 }
 
 .contacts-caption-five {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 24px;
   color: #323232;
   margin: -2px 0 22px 0;
@@ -970,7 +972,7 @@ ul.slider-pagination {
 }
 
 .footer-contacts  {
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 22px;
   font-weight: 700;
   color: #323232;
@@ -1003,7 +1005,6 @@ ul.slider-pagination {
   height: 38px;
   border: 2px solid rgba(255, 255, 255, 0.50);
   background-color: transparent;
-  font-size: 0;
   border-radius: 25px;
   opacity: 0.8;
   text-decoration: none;
@@ -1070,7 +1071,7 @@ ul.slider-pagination {
 
 .basket-form {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 13px;
+  /* font-size: 13px; */
   line-height: 16px;
   font-weight: 400;
   background: #f8f7f4;
@@ -1167,7 +1168,7 @@ ul.slider-pagination {
 
 .result {
   text-align: right;
-  font-size: 15px;
+  /* font-size: 15px; */
   line-height: 18px;
   font-weight: 700;
   position: absolute;
@@ -1214,7 +1215,7 @@ ul.slider-pagination {
   background: #ffffff;
   color: #000000;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 16px;
   font-weight: 500;
   display: block;
@@ -1296,7 +1297,7 @@ ul.slider-pagination {
 .review-name {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 28px;
   font-weight: 500;
   margin-bottom: 23px;
@@ -1341,7 +1342,7 @@ ul.slider-pagination {
   border: 1px solid #d3d3d2;
   padding: 11px 14px;
   border-radius: 3px;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 24px;
   font-weight: 400;
   color: #323232;
@@ -1358,7 +1359,7 @@ ul.slider-pagination {
   padding-left: 10px;
   padding-bottom: 100px;
   border-radius: 3px;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 24px;
   font-weight: 400;
   color: #323232;
@@ -1393,7 +1394,7 @@ ul.slider-pagination {
   padding: 10px 20px;
   color: #ffffff;
   border-radius: 30px;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 700;
   background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
@@ -1422,19 +1423,21 @@ ul.slider-pagination {
 .forgot-password {
   color: #000;
   position: relative;
-  left: 125px;
+  left: 138px;
   top: 25px;
   text-transform: none;
   text-decoration: underline;
+  font-size: 13px;
 }
 
 .new-name {
   color: #000;
   position: relative;
-  left: 5px;
+  left: 40px;
   top: 45px;
   text-transform: none;
   text-decoration: underline;
+  font-size: 13px;
 }
 
 .btn-entrance {
@@ -1444,7 +1447,7 @@ ul.slider-pagination {
   height: 45px;
   color: #ffffff;
   border-radius: 30px;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 700;
   background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
@@ -1485,7 +1488,7 @@ ul.slider-pagination {
   left: 34px;
   z-index: 40;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 700;
   display: inline-block;
@@ -1581,7 +1584,7 @@ ul.slider-pagination {
 
 .copyright-link {
   margin: -37px 6px -9px 0;
-  font-size: 11px;
+  /* font-size: 11px; */
   line-height: 13px;
 }
 
@@ -1599,7 +1602,7 @@ ul.slider-pagination {
 .links-item-copyright {
   color: #ffffff;
   text-decoration: underline;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .links-item-copyright:hover,
@@ -1617,7 +1620,7 @@ ul.slider-pagination {
 
 .send-btn-email {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 16px;
 }
 
@@ -1714,7 +1717,7 @@ input[type="text"]:active {
 
 .user-search-loupe {
   position: relative;
-  font-size: 0;
+  /* font-size: 0; */
   display: block;
   width: 32px;
   height: 32px;
@@ -1759,6 +1762,7 @@ input[type="text"]:active {
 }
 
 .search-form input[type="search"] {
+  font-size: 14px;
   padding: 13px 15px;
   width: 100%;
   border: 1px solid #d3d3d2;
@@ -1782,7 +1786,6 @@ input[type="text"]:active {
   display: block;
   position: absolute;
   color: #b2b2b2;
-  font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   top: 31px;
@@ -1792,7 +1795,7 @@ input[type="text"]:active {
 
 .search-form input[type="search"]:focus + label {
   top: 5px;
-  font-size: 11px;
+  /* font-size: 11px; */
   line-height: 13px;
   color: #5b9ddf;
 }
@@ -1853,8 +1856,8 @@ input[type="text"]:active {
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
-  font: inherit;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .user-login input[type="email"]:hover,
@@ -1927,7 +1930,7 @@ input[type="text"]:active {
 
 .filter-checkbox-group {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 18px;
   font-weight: 500;
   margin: 0;
@@ -1965,28 +1968,28 @@ input[type="text"]:active {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 18px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .catalog-filter-title-two {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 15.9px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .catalog-filter-title-three {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 13px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .catalog-filter-title-four {
   padding-top: 13px;
   padding-bottom: 3.5px;
   padding-left: 17px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .range {
@@ -2132,7 +2135,7 @@ select::-ms-expand {
   padding-left: 29px;
   margin-right: 17px;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 18px;
   font-weight: 500;
   position: relative;
@@ -2255,7 +2258,7 @@ select::-ms-expand {
 }
 .pagination-link {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 700;
   display: inline-block;
   color: #ffffff;
