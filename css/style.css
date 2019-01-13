@@ -608,10 +608,6 @@ ul.slider-pagination {
   line-height: 44px;
 }
 
-.conversation-form-two {
-  align-self: baseline;
-}
-
 .btn-subscribe-one {
   font-size: 18px;
   line-height: 24px;
@@ -1614,21 +1610,15 @@ ul.slider-pagination {
 
 .field-caption {
   position: relative;
-  width: 300px;
   bottom: 20px;
   color: #999999;
   font-weight: 400;
 }
 
 .send-btn-email {
-  color: #323232;
-  font-weight: 400;
-  border: 1.5px solid #b2b2b2;
-  border-radius: 5px;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
-  font-weight: 400;
 }
 
 input[type="email"] {
@@ -1921,10 +1911,6 @@ input[type="text"]:active {
 }
 .user-login input:focus {
   border-color: 2px solid #2e88e4;
-}
-
-.user-mail-form {
-  display: block;
 }
 
 .user-mail-form input[type="text"],
@@ -2258,7 +2244,7 @@ select::-ms-expand {
   justify-content: flex-end;
   align-items: baseline;
   border-bottom: 1px solid rgba(255,255,255,0.2);
-  margin-top: 49px;
+  margin-top: 52px;
   text-align: right;
   padding-bottom: 29px;
   margin-bottom: 18px;
@@ -2309,11 +2295,21 @@ select::-ms-expand {
 }
 
 .arrow-left {
-  color: #ffffff;
-  margin-right: 12px;
+  margin-right: 8px;
+  -webkit-transform: rotate(135deg);
+  border: solid;
+  color: rgba(255, 255, 255, 0.2);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
 }
 
 .arrow-right {
-  color: #ffffff;
-  margin-left: 12px;
+  margin-left: 8px;
+  -webkit-transform: rotate(315deg);
+  border: solid;
+  color: rgba(255, 255, 255, 0.8);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
 }

@@ -37,36 +37,32 @@
             <a class="user-search-loupe user-search-loupe-picture" href="#" aria-label="Поиск">Поиск</a>
             <!-- Поиск -->
             <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
-              <div class="field-wrapper">
-                <input class="input" type="search" name="search" id="search-field" placeholder="Что ищем?" required>
-                <label for="search-field"></label>
-              </div>
+              <input class="input" type="search" name="search" id="search-field" placeholder="Что ищем?" required>
+              <label for="search-field"></label>
             </form>
           </li>
           <li class="user user-login">
             <a class="user-login-link user-login-link-enter">Вход</a>
-            <div class="login-links">
-              <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
-                <div class="field-wrapper">
-                  <label for="user-mail"></label>
-                  <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
-                </div>
-                <div class="field-wrapper">
-                  <label for="password-field"></label>
-                  <input type="password" name="password-field" id="password-field" placeholder="Пароль" required>
-                </div>
-                <button class="btn btn-entrance" type="submit">Войти</button>
-                <a class="forgot-password" href="#">Забыли пароль</a>
-                <a class="new-name" href="#">Новая регистрация</a>
-              </form>
-            </div>
+            <form class="login-links user-mail-form" action="http://echo.htmlacademy.ru" method="post">
+              <div class="field-wrapper">
+                <label for="user-mail"></label>
+                <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
+              </div>
+              <div class="field-wrapper">
+                <label for="password-field"></label>
+                <input type="password" name="password-field" id="password-field" placeholder="Пароль" required>
+              </div>
+              <button class="btn btn-entrance" type="submit">Войти</button>
+              <a class="forgot-password" href="#">Забыли пароль</a>
+              <a class="new-name" href="#">Новая регистрация</a>
+            </form>
           </li>
           <li class="user">
             <a href="#" class="user-login-link-basket hover-basket">2 товара</a>
             <form class="basket-form" action="https://echo.htmlacademy.ru/" method="post">
               <table>
                 <tr class="basket-row">
-                  <td><a class="cart-link-one"></a></td>
+                  <td><button class="cart-link-one"></button></td>
                   <td class="orange-strawberry">
                     <img class="name-orange-strawberry" src="img/icecream-orange.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
                     <p class="basket-item-text">Пломбир с апельсиновым джемом</p>
@@ -79,7 +75,7 @@
                   </td>
                 </tr>
                 <tr class="basket-row last-item">
-                  <td><a class="cart-link-two"></a></td>
+                  <td><button class="cart-link-two"></button></td>
                   <td class="orange-strawberry">
                     <img class="name-orange-strawberry" src="img/icecream-strawberry.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
                     <p class="basket-item-text">Клубничный пломбир с присыпкой из белого шоколада</p>
@@ -121,59 +117,57 @@
       <!-- <section>Здесь будет форма</section> -->
       <h2 class="visually-hidden">Фильтр товаров</h2>
       <div class="filter">
-        <form action="http://echo.htmlacademy.ru" method="get">
-          <div class="catalog-filter-form">
-            <div>
-              <div class="catalog-filter-title-one">Сортировка:</div>
-              <div class="catalog-filter-group">
-                <select class="sort-select">
+        <form class="catalog-filter-form" action="http://echo.htmlacademy.ru" method="get">
+          <div>
+            <div class="catalog-filter-title-one">Сортировка:</div>
+            <div class="catalog-filter-group">
+              <select class="sort-select">
                   <option class="select-list" value="popular" selected>по популярности</option>
                   <option class="select-list" value="expensive">сначала недорогие</option>
                   <option class="select-list" value="notexpensive">сначала дорогие</option>
                   <option class="select-list" value="fat">по жирности</option>
                 </select>
-              </div>
             </div>
-            <div>
-              <div class="catalog-filter-title-two">Цена:100 руб. - 500 руб.</div>
-              <div class="catalog-range-group">
-                <div class="bar"></div>
-                <div class="toggle-one"></div>
-                <div class="toggle-two"></div>
-                <div class="toggle-three"></div>
-                <div class="toggle-four"></div>
-              </div>
-            </div>
-            <div class="fat">
-              <div class="catalog-filter-title-three">Жирность:</div>
-              <fieldset class="radio-fat-group">
-                <input type="radio" name="fat" id="zero">
-                <label class="label-text-one" for="zero">0%</label>
-                <input type="radio" name="fat" id="ten" checked>
-                <label class="label-text-one" for="ten">до 10%</label>
-                <input type="radio" name="fat" id="thirty">
-                <label class="label-text-one" for="thirty">до 30%</label>
-                <input type="radio" name="fat" id="more-thirty">
-                <label class="label-text-one" for="more-thirty">выше 30%</label>
-              </fieldset>
-            </div>
-            <div class="filter-wrapper">
-              <div class="catalog-filter-title-four">Наполнители:</div>
-              <fieldset class="filter-checkbox-group">
-                <input type="checkbox" name="chocolate" id="chocolate" checked>
-                <label class="label-text-two" for="chocolate">шоколадные</label>
-                <input type="checkbox" name="sugar" id="sugar" checked>
-                <label class="label-text-two" for="sugar">сахарные присыпки</label>
-                <input type="checkbox" name="fruits" id="fruits">
-                <label class="label-text-two" for="fruits">фрукты</label>
-                <input type="checkbox" name="syrup" id="syrup">
-                <label class="label-text-two" for="syrup">сиропы</label>
-                <input type="checkbox" name="jam" id="jam">
-                <label class="label-text-two" for="jam">джемы</label>
-              </fieldset>
-            </div>
-            <button class="btn-apply" type="submit">Применить</button>
           </div>
+          <div>
+            <div class="catalog-filter-title-two">Цена:100 руб. - 500 руб.</div>
+            <div class="catalog-range-group">
+              <div class="bar"></div>
+              <div class="toggle-one"></div>
+              <div class="toggle-two"></div>
+              <div class="toggle-three"></div>
+              <div class="toggle-four"></div>
+            </div>
+          </div>
+          <div class="fat">
+            <div class="catalog-filter-title-three">Жирность:</div>
+            <fieldset class="radio-fat-group">
+              <input type="radio" name="fat" id="zero">
+              <label class="label-text-one" for="zero">0%</label>
+              <input type="radio" name="fat" id="ten" checked>
+              <label class="label-text-one" for="ten">до 10%</label>
+              <input type="radio" name="fat" id="thirty">
+              <label class="label-text-one" for="thirty">до 30%</label>
+              <input type="radio" name="fat" id="more-thirty">
+              <label class="label-text-one" for="more-thirty">выше 30%</label>
+            </fieldset>
+          </div>
+          <div class="filter-wrapper">
+            <div class="catalog-filter-title-four">Наполнители:</div>
+            <fieldset class="filter-checkbox-group">
+              <input type="checkbox" name="chocolate" id="chocolate" checked>
+              <label class="label-text-two" for="chocolate">шоколадные</label>
+              <input type="checkbox" name="sugar" id="sugar" checked>
+              <label class="label-text-two" for="sugar">сахарные присыпки</label>
+              <input type="checkbox" name="fruits" id="fruits">
+              <label class="label-text-two" for="fruits">фрукты</label>
+              <input type="checkbox" name="syrup" id="syrup">
+              <label class="label-text-two" for="syrup">сиропы</label>
+              <input type="checkbox" name="jam" id="jam">
+              <label class="label-text-two" for="jam">джемы</label>
+            </fieldset>
+          </div>
+          <button class="btn-apply" type="submit">Применить</button>
         </form>
       </div>
       <section class="catalog">
@@ -420,25 +414,27 @@
       </section>
       <div>
         <ul class="pagination-list">
-          <li><img class="arrow-left" src="img/icon-left.png" alt="htmlacademy" width="8" height="14"></li>
+          <li>
+            <div class="arrow-left"></div>
+          </li>
           <li><a class="pagination-link pagination-link-active" href="#">1</a></li>
           <li><a class="pagination-link" href="#">2</a></li>
           <li><a class="pagination-link" href="#">3</a></li>
           <li><a class="pagination-link" href="#">4</a></li>
           <li><a class="pagination-link" href="#">5</a></li>
-          <li><img class="arrow-right" src="img/icon-right.png" alt="htmlacademy" width="8" height="14"></li>
+          <li>
+            <div class="arrow-right"></div>
+          </li>
         </ul>
       </div>
     </main>
     <footer class="main-footer">
-      <div class="footer-socials">
-        <ul class="social-list">
-          <li><a class="social-link  social-link-tw" href="#" aria-label="Твиттер"></a></li>
-          <li><a class="social-link social-link-in" href="#" aria-label="Инстаграм"></a></li>
-          <li><a class="social-link social-link social-link-fb" href="#" aria-label="Фейсбук"></a></li>
-          <li><a class="social-link social-link social-link-vk" href="#" aria-label="Мы Вконтакте"></a></li>
-        </ul>
-      </div>
+      <ul class="social-list footer-socials">
+        <li><a class="social-link  social-link-tw" href="#" aria-label="Твиттер"></a></li>
+        <li><a class="social-link social-link-in" href="#" aria-label="Инстаграм"></a></li>
+        <li><a class="social-link social-link social-link-fb" href="#" aria-label="Фейсбук"></a></li>
+        <li><a class="social-link social-link social-link-vk" href="#" aria-label="Мы Вконтакте"></a></li>
+      </ul>
       <ul class="footer-menu">
         <li class=" footer-menu heart"><a class="footer-menu info-one" href="#">Для поставщиков</a></li>
         <li><a class="footer-menu info-two" href="#">Наши документы</a></li>
@@ -447,9 +443,7 @@
       </ul>
       <div class="copyright-link">
         <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
-        <div>
-          <p class="made-in">Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &#169; 2017</p>
-        </div>
+        <p class="made-in">Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &#169; 2017</p>
       </div>
     </footer>
   </div>
