@@ -222,7 +222,8 @@ ul.slider-pagination {
 
 .breadcrumbs {
   display:flex;
-  /* font-size: 14px; */
+  font-size: 14px;
+  font-weight: 400;
   line-height: 18.5px;
   color: #ffffff;
   text-decoration: underline;
@@ -247,7 +248,8 @@ ul.slider-pagination {
 }
 
 .page-title {
-  /* font-size: 35px; */
+  font-size: 35px;
+  font-weight: bold;
   margin: -4px 0 24px 0;
   padding: 0 0 0 0;
 }
@@ -1071,14 +1073,11 @@ ul.slider-pagination {
 
 .basket-form {
   font-family: "Roboto", "Arial", sans-serif;
-  /* font-size: 13px; */
+  display: none;
   line-height: 16px;
-  font-weight: 400;
   background: #f8f7f4;
   color: #000;
   padding: 20px 14px 21px 15px;
-  border-radius: 5px;
-  display: none;
   border-radius: 5px;
   background-color: rgb(248, 247, 244);
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
@@ -1146,20 +1145,25 @@ ul.slider-pagination {
 
 .basket-item-text {
   padding-right: 10px;
+  font-size: 13px;
 }
 
 .thing-one {
   padding-left: 0;
   min-width: 120px;
+  font-size: 13px;
 }
 
 .thing-two {
   margin-left: 10px;
   min-width: 70px;
+  font-size: 13px;
 }
 
 .thing-three {
   margin: -10px 0 0 0;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .light {
@@ -1181,6 +1185,8 @@ ul.slider-pagination {
   position: absolute;
   bottom: 20px;
   right: 12px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .user-login-link-basket::before {
@@ -1248,10 +1254,11 @@ ul.slider-pagination {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #f8f7f4;
-  width: 480px;
+  width: 478px;
+  min-height: 442px;
   color: #000;
-  padding: 20px 25px 25px 24px;
-  border-radius: 15px;
+  padding: 16px 26px 16px 26px;
+  border-radius: 5px;
   display: none;
   z-index: 200;
 }
@@ -1297,13 +1304,12 @@ ul.slider-pagination {
 .review-name {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
-  /* font-size: 24px; */
+  font-size: 24px;
   line-height: 28px;
   font-weight: 500;
-  margin-bottom: 23px;
   margin: 0;
   padding: 0;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
 }
 
 .close-btn {
@@ -1313,7 +1319,7 @@ ul.slider-pagination {
   height: 19px;
   background: url("../img/cross-big.svg") no-repeat 50% 50%;
   right: 15px;
-  top: 21px;
+  top: 15px;
   cursor: pointer;
   outline: none;
   border: none
@@ -1337,16 +1343,17 @@ ul.slider-pagination {
 
 .contact-name-field,
 .contact-mail-field {
+  height: 43px;
   width: 267px;
   box-sizing: border-box;
   border: 1px solid #d3d3d2;
   padding: 11px 14px;
   border-radius: 3px;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #323232;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -1356,10 +1363,10 @@ ul.slider-pagination {
   height: 155px;
   box-sizing: border-box;
   border: 1px solid #d3d3d2;
-  padding-left: 10px;
-  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-top: 8px;
   border-radius: 3px;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #323232;
@@ -1391,10 +1398,10 @@ ul.slider-pagination {
 .btn-subscribe-two {
   display: inline-block;
   vertical-align: top;
-  padding: 10px 20px;
+  padding: 10px 25px;
   color: #ffffff;
   border-radius: 30px;
-  /* font-size: 18px; */
+  font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
@@ -1402,7 +1409,8 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
-  margin-left: 300px;
+  position: relative;
+  left: 288px;
   outline: none;
 }
 
@@ -1624,7 +1632,7 @@ ul.slider-pagination {
   line-height: 16px;
 }
 
-input[type="email"] {
+.conversation-form-one {
   width: 368px;
   min-height: 40px;
   color: #323232;
@@ -1632,6 +1640,7 @@ input[type="email"] {
   border-radius: 5px;
   padding-left: 12px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 input[type="email"]:hover {
@@ -1653,12 +1662,11 @@ input[type="email"]:active {
 }
 
 input[type="text"] {
-  width: 368px;
+  width: 267px;
   min-height: 40px;
   color: #323232;
-  border: 1px solid #b2b2b2;
   border-radius: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   font-weight: 400;
 }
 
@@ -1968,28 +1976,28 @@ input[type="text"]:active {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 18px;
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 .catalog-filter-title-two {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 15.9px;
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 .catalog-filter-title-three {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 13px;
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 .catalog-filter-title-four {
   padding-top: 13px;
   padding-bottom: 3.5px;
   padding-left: 17px;
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 .range {
@@ -2027,6 +2035,7 @@ select::-ms-expand {
 
 .sort-select {
   margin: 0;
+  font-size: 16px;
   display: inline;
   padding-left: 14px;
   padding-bottom: 3px;
@@ -2135,7 +2144,7 @@ select::-ms-expand {
   padding-left: 29px;
   margin-right: 17px;
   font-family: "Roboto", "Arial", sans-serif;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   position: relative;
@@ -2156,8 +2165,8 @@ select::-ms-expand {
 }
 
 .label-text-two {
+  font-size: 16px;
   line-height: 18px;
-  opacity: 0.8;
   position: relative;
   cursor: pointer;
   color: #ffffff;
