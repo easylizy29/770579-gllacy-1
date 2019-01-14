@@ -321,13 +321,13 @@ ul.slider-pagination {
 }
 
 .sub-menu {
-  display: none;
+  /* display: none; */
   position: absolute;
-  width: 144px;
+  width: 143px;
   border-radius: 5px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
-  left: 0;
-  top: calc(100% + 6px);
+  left: -8px;
+  top: calc(100% + -2px);
   z-index: 8;
   background-color: rgb(248, 247, 244);
 }
@@ -352,9 +352,19 @@ ul.slider-pagination {
 }
 
 .sub-menu .sub-list {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   padding-left: 20px;
+}
+
+.sub-menu .sub-list:first-child{
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+}
+
+.sub-menu .sub-list:last-child{
+  padding-bottom: 7px;
 }
 
 .sub-list:hover {
@@ -395,7 +405,7 @@ ul.slider-pagination {
   font-weight: 700;
   line-height: 1.143;
   text-align: left;
-  margin-bottom: 0;
+  margin-bottom: 6px;
   border-bottom: 1px solid #d1d0ce;
   z-index: 360;
 }
@@ -1073,17 +1083,17 @@ ul.slider-pagination {
 
 .basket-form {
   font-family: "Roboto", "Arial", sans-serif;
-  display: none;
+  /* display: none; */
   line-height: 16px;
   background: #f8f7f4;
   color: #000;
-  padding: 20px 14px 21px 15px;
+  padding: 21px 12px 23px 13px;
   border-radius: 5px;
   background-color: rgb(248, 247, 244);
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
   position: absolute;
   right: 0px;
-  top: 40px;
+  top: 39px;
   min-width: 540px;
   min-height: 242px;
   z-index: 150;
@@ -1111,8 +1121,8 @@ ul.slider-pagination {
   width: 19px;
   height: 19px;
   background: url("../img/cross-small.svg") no-repeat 50% 50%;
-  left: -5px;
-  top: 12px;
+  left: -3px;
+  top: 18px;
   cursor: pointer;
   outline: none;
   border: none;
@@ -1124,8 +1134,8 @@ ul.slider-pagination {
   width: 19px;
   height: 19px;
   background: url("../img/cross-small.svg") no-repeat 50% 50%;
-  left: -5px;
-  top: 20px;
+  left: -3px;
+  top: 15px;
   cursor: pointer;
   outline: none;
   border: none;
@@ -1134,12 +1144,11 @@ ul.slider-pagination {
 .orange-strawberry {
   display: flex;
   align-items: center;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 30px;
 }
 
 .name-orange-strawberry  {
-  margin-right: 14px;
+  margin: 11px 20px 1px -2px;
   border-radius: 50%;
 }
 
@@ -1149,14 +1158,14 @@ ul.slider-pagination {
 }
 
 .thing-one {
-  padding-left: 0;
+  padding-left: 17px;
   min-width: 120px;
   font-size: 13px;
 }
 
 .thing-two {
   margin-left: 10px;
-  min-width: 70px;
+  min-width: 67px;
   font-size: 13px;
 }
 
@@ -1261,6 +1270,7 @@ ul.slider-pagination {
   border-radius: 5px;
   display: none;
   z-index: 200;
+  box-shadow: 0 0 0 1300px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes bounce {
@@ -1431,8 +1441,8 @@ ul.slider-pagination {
 .forgot-password {
   color: #000;
   position: relative;
-  left: 138px;
-  top: 25px;
+  left: 140px;
+  top: 19px;
   text-transform: none;
   text-decoration: underline;
   font-size: 13px;
@@ -1441,8 +1451,8 @@ ul.slider-pagination {
 .new-name {
   color: #000;
   position: relative;
-  left: 40px;
-  top: 45px;
+  left: 36px;
+  top: 40px;
   text-transform: none;
   text-decoration: underline;
   font-size: 13px;
@@ -1455,7 +1465,7 @@ ul.slider-pagination {
   height: 45px;
   color: #ffffff;
   border-radius: 30px;
-  /* font-size: 18px; */
+  font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
@@ -1463,7 +1473,7 @@ ul.slider-pagination {
   text-decoration: none;
   border: 0;
   padding-left: 23px;
-  margin-top: 21px;
+  margin-top: 19px;
   cursor: pointer;
 }
 
@@ -1855,6 +1865,7 @@ input[type="text"]:active {
 
 .user-login input[type="email"],
 .user-login input[type="password"] {
+  padding-left: 10px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
@@ -1927,9 +1938,9 @@ input[type="text"]:active {
 .user-mail-form input[type="text"],
 .user-mail-form input[type="password"] {
   width: 240px;
-  padding-top: 17px;
+  padding-top: 16px;
   padding-left: 12px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   border: 1px solid #d3d3d2;
   border-radius: 5px;
   outline: none;
