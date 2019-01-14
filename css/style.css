@@ -23,7 +23,6 @@ a {
 .btn {
   display: inline-block;
   padding: 10px 22px;
-  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 700;
   vertical-align: top;
@@ -1087,33 +1086,33 @@ ul.slider-pagination {
   line-height: 16px;
   background: #f8f7f4;
   color: #000;
-  padding: 21px 12px 23px 13px;
+  padding: 27px 11px 11px 5px;
   border-radius: 5px;
   background-color: rgb(248, 247, 244);
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
   position: absolute;
   right: 0px;
-  top: 39px;
+  top: 38px;
   min-width: 540px;
   min-height: 242px;
   z-index: 150;
 }
 
-.basket-form .basket-row {
+.basket-row {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 15px;
-  margin-left: 0;
+  margin-bottom: 21px;
+  margin-left: -1px;
   margin-right: 0;
-  margin-top: -15px;
+  margin-top: -14px;
 }
 
-.last-item {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #cacac7;
-}
+/* .last-item {
+  border-top: 1px solid #cacac7;
+  min-width: 512px;
+} */
 
 .cart-link-one {
   position: absolute;
@@ -1121,8 +1120,8 @@ ul.slider-pagination {
   width: 19px;
   height: 19px;
   background: url("../img/cross-small.svg") no-repeat 50% 50%;
-  left: -3px;
-  top: 18px;
+  left: 5px;
+  top: 11px;
   cursor: pointer;
   outline: none;
   border: none;
@@ -1134,43 +1133,73 @@ ul.slider-pagination {
   width: 19px;
   height: 19px;
   background: url("../img/cross-small.svg") no-repeat 50% 50%;
-  left: -3px;
-  top: 15px;
+  left: 9px;
+  top: 12px;
   cursor: pointer;
   outline: none;
   border: none;
 }
 
-.orange-strawberry {
+.strawberry-orange {
   display: flex;
   align-items: center;
-  padding-left: 30px;
+  margin: 2px 34px 3px 3px;
+  padding: 0 0 0 32px;
 }
 
 .name-orange-strawberry  {
-  margin: 11px 20px 1px -2px;
   border-radius: 50%;
+  margin: 0 11px 0 0;
+}
+
+.img-one {
+  position: relative;
+  top: -8px;
+  left: -2px;
+}
+
+.img-two {
+  position: relative;
+  top: 1px;
+  left: -2px;
 }
 
 .basket-item-text {
-  padding-right: 10px;
+  max-width: 216px;
   font-size: 13px;
 }
 
 .thing-one {
-  padding-left: 17px;
-  min-width: 120px;
+  position: relative;
+  top: -1px;
+  left: -4px;
+  margin: 1px 21px -1px 0;
   font-size: 13px;
 }
 
 .thing-two {
-  margin-left: 10px;
-  min-width: 67px;
+  position: relative;
+  top: -10px;
+  left: -4px;
+  margin: 1px 21px -1px 0;
   font-size: 13px;
 }
 
 .thing-three {
-  margin: -10px 0 0 0;
+  position: relative;
+  top: -8px;
+  left: -4px;
+  margin: 0 7px 0 0;
+  font-size: 13px;
+}
+
+.thing-four {
+  margin: -16px 9px -1px -2px;
+  font-size: 13px;
+}
+
+.price-table {
+  margin: -7px -2px 0 0;
   font-size: 15px;
   font-weight: bold;
 }
@@ -1181,22 +1210,50 @@ ul.slider-pagination {
 
 .result {
   text-align: right;
-  /* font-size: 15px; */
+  font-size: 15px;
   line-height: 18px;
   font-weight: 700;
   position: absolute;
   right: 12px;
-  top: 168px;
+  top: 171px;
   margin-top: -20px;
 }
 
-.make-order {
+.last-item {
+  border-bottom: 1px solid #cacac7;
+  min-width: 512px;
+}
+
+.btn-make-order {
   position: absolute;
   bottom: 20px;
-  right: 12px;
+  right: 14px;
   font-size: 18px;
-  font-weight: bold;
+  display: inline-block;
+  padding: 9px 15px;
+  line-height: 24px;
+  font-weight: 700;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
+  border-radius: 30px;
+  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
+  text-align: center;
+  border: 0;
+  margin-bottom: auto;
+  animation-delay: 1s;
 }
+
+.btn-make-order:hover {
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 1);
+  background-image: linear-gradient(to bottom, #f58669, #ec6f5e);
+   }
+
+.btn-make-order:active {
+  box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+  }
 
 .user-login-link-basket::before {
   display: block;
