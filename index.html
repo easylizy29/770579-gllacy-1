@@ -46,19 +46,21 @@
               </form>
             </li>
             <li class="user user-login">
-              <a class="user-login-link user-login-link-enter">Вход</a>
+              <a class="user-login-link user-login-link-enter" href="#">Вход</a>
               <form class="login-links user-mail-form" action="http://echo.htmlacademy.ru" method="post">
                 <label for="user-mail"></label>
                 <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
                 <label for="password-field"></label>
                 <input type="password" name="password-field" id="password-field" placeholder="Пароль" required>
                 <button class="btn btn-entrance" type="submit">Войти</button>
-                <a class="forgot-password" href="#">Забыли пароль?</a>
-                <a class="new-name" href="#">Новая регистрация</a>
+                <div class="user-mail-links">
+                  <a href="#">Забыли пароль?</a>
+                  <a href="#">Новая регистрация</a>
+                </div>
               </form>
             </li>
             <li class="user">
-              <a href="#" class="user-login-link user-login-link-basket cart-empty">Пусто</a>
+              <a class="user-login-link user-login-link-basket cart-empty" href="#">Пусто</a>
             </li>
           </ul>
         </nav>
@@ -210,31 +212,29 @@
             <p class="subscribe-text"> Подпишитесь на нашу сладкую рассылку и будете всегда в курсе самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
             <form class="conversation-form" action="https://echo.htmlacademy.ru/" method="post">
               <input class="conversation-form-one send-btn-email" type="email" id="email" placeholder="Электронная почта" required>
-              <label class="field-caption" for="email"></label>
-              <input class="btn-subscribe-one" type="button" value="Отправить">
+              <label class="visually-hidden" for="email">Ваша почта</label>
+              <button class="btn-subscribe-one" type="submit">Отправить</button>
             </form>
+          </div>
+          <div class="contacts">
+            <h2 class="visually-hidden">Контакты</h2>
+            <p class="contacts-caption-one">Адрес главного офиса и офлайн-магазина:</p>
+            <p class="contacts-caption-two"><b>ул. Большая Конюшенная
+        19/8, Санкт-Петербург</b></p>
+            <p class="contacts-caption-three">Для заказов по телефону:</p>
+            <a class="contacts-caption-four" href="tel:+7-812-450-25-25"><b>
+          8 812 450-25-25</b></a>
+            <p class="contacts-caption-five">(с 10 до 20 ежедневно)</p>
+            <div class="form-contacs-btn">
+              <a href="contacts.html" class="btn-contacts">Форма обратной связи</a>
+            </div>
           </div>
         </section>
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002783!2d30.320858715677204!3d59.93871916905471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1545382079500"
             allowfullscreen></iframe>
         </div>
-        <div class="contacts">
-          <h2 class="visually-hidden">Контакты</h2>
-          <p class="contacts-caption-one">Адрес главного офиса и офлайн-магазина:</p>
-          <p class="contacts-caption-two"><b>ул. Большая Конюшенная
-      19/8, Санкт-Петербург</b></p>
-          <p class="contacts-caption-three">Для заказов по телефону:</p>
-          <a class="contacts-caption-four" href="tel:+7-812-450-25-25"><b>
-        8 812 450-25-25</b></a>
-          <p class="contacts-caption-five">(с 10 до 20 ежедневно)</p>
-          <div class="form-contacs-btn">
-            <a href="#" class="btn-contacts">Форма обратной связи</a>
-          </div>
-        </div>
       </main>
-    </div>
-    <div class="container">
       <footer class="main-footer">
         <ul class="social-list footer-socials">
           <li><a class="social-link social-link-tw" href="#" aria-label="Твиттер"></a></li>
