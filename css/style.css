@@ -2296,6 +2296,11 @@ input[type="text"]:active {
   background-size: 21px 21px;
 }
 
+.fat input[type="radio"]:checked + label:hover:after {
+  background: url("../img/radio-on.svg") no-repeat;
+  background-size: 21px 21px;
+}
+
 .catalog-filter-title-one {
   padding-top: 9px;
   padding-bottom: 5px;
@@ -2498,12 +2503,18 @@ select::-ms-expand {
 }
 
 .label-text-one:hover::after {
-  background-color: #ffffff;
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: url("../img/radio-off.svg") no-repeat;
+  left: -2px;
+  top: 0;
+  background-size: contain;
 }
 
 .label-text-two {
   line-height: 18px;
-  opacity: 0.8;
   position: relative;
   cursor: pointer;
   color: #ffffff;
@@ -2524,6 +2535,20 @@ select::-ms-expand {
   left: 1px;
   background-size: contain;
 }
+
+.label-text-two:hover::after {
+  line-height: 18px;
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0;
+  left: 1px;
+  background-size: contain;
+}
+
+
 .filter-wrapper input[type="checkbox"]:checked + label:before {
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
@@ -2540,12 +2565,18 @@ select::-ms-expand {
   background-size: contain;
 }
 
-.filter-wrapper input[type="checkbox"]:checked + label:hover:before {
+.filter-wrapper input[type="checkbox"]:checked + label:hover:before,
+.filter-wrapper input[type="checkbox"]:checked + label:focus:before {
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   width: 25px;
   height: 22px;
   background-size: contain;
+}
+
+.filter-wrapper input[type="checkbox"]:checked + label:hover:after {
+  background: url("../img/checkbox-on.svg") no-repeat;
+  background-size: 25px 22px;
 }
 
 .fat label:last-child,
