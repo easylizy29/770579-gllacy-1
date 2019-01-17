@@ -48,7 +48,6 @@ a {
   background-image: linear-gradient(to top, #ed715f 20% , #f48569 100%);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
           box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-  outline: none;
 }
 
 .btn:active {
@@ -56,7 +55,6 @@ a {
   background-image: linear-gradient(to top, #f26843 20% , #d84732 100%);
   -webkit-box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004) inset;
           box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004) inset;
-  outline: none;
 }
 
 .btn-offer {
@@ -678,7 +676,6 @@ ul.slider-pagination {
   margin: 0;
   border: 1px solid #b2b2b2;
   border-radius: 5px;
-  outline: 0;
   cursor: pointer;
   height: 44px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -706,7 +703,6 @@ ul.slider-pagination {
   cursor: pointer;
   min-height: 46px;
   min-width: 128px;
-  outline: none;
 }
 
 .btn-subscribe-one:hover {
@@ -766,7 +762,7 @@ ul.slider-pagination {
   top: -6px;
   content: "";
   width: 110%;
-  min-height: 108%;
+  min-height: 113%;
   visibility: hidden;
   z-index: 1;
 }
@@ -900,7 +896,6 @@ ul.slider-pagination {
   border-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0);
   cursor: pointer;
-  outline: none;
 }
 
 .catalog-filter-form input[type="submit"]:hover {
@@ -1290,19 +1285,6 @@ ul.slider-pagination {
   min-width: 512px;
 } */
 
-.cart-link-one {
-  position: absolute;
-  display: block;
-  width: 19px;
-  height: 19px;
-  background: url("../img/cross-small.svg") no-repeat 50% 50%;
-  left: 5px;
-  top: 11px;
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
-
 .cart-item-remove {
   position: absolute;
   display: block;
@@ -1312,7 +1294,6 @@ ul.slider-pagination {
   left: 9px;
   top: 12px;
   cursor: pointer;
-  outline: none;
   border: none;
 }
 
@@ -1614,7 +1595,6 @@ ul.slider-pagination {
   right: 15px;
   top: 15px;
   cursor: pointer;
-  outline: none;
   border: none
 }
 
@@ -1667,26 +1647,25 @@ ul.slider-pagination {
   font-weight: 400;
   color: #323232;
   margin-bottom: 25px;
-  outline: none;
   resize: none;
   text-align: left;
   vertical-align: top;
 }
 
 .message:hover {
-  border: 1.5px solid rgba(154, 154, 154, 0.5);
+  box-shadow: inset 0 0 0 0.5px #9a9a9a;
   color: #999999;
   font-weight: 400;
 }
 
 .message:focus {
-  border: 1.5px solid rgba(46, 136, 228, 0.6);
+  box-shadow: inset 0 0 0 1.5px #2e88e4;
   color: #999999;
   font-weight: 400;
 }
 
 .message:active {
-  border: 1.5px solid rgba(46, 136, 228, 0.3);
+  box-shadow: inset 0 0 0 0.5px #b2b2b2;
   color: #999999;
   font-weight: 400;
 }
@@ -1709,7 +1688,6 @@ ul.slider-pagination {
   border: 0;
   position: relative;
   left: 288px;
-  outline: none;
 }
 
 .btn-subscribe-two:hover {
@@ -1733,6 +1711,7 @@ ul.slider-pagination {
 .user-mail-links {
   width: 150px;
   margin: -66px 0 0 132px;
+  padding-bottom: 10px;
 }
 
 .user-mail-links a {
@@ -1792,7 +1771,6 @@ ul.slider-pagination {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(234, 234, 234, 10) inset;
           box-shadow: 0px 4px 4px 0px rgba(105, 105, 105, 4) inset;
   color: #000;
-  outline: none;
 }
 
 .goods-item-btn {
@@ -1812,7 +1790,7 @@ ul.slider-pagination {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f26843), to(#e74a35));
   background-image: linear-gradient(to bottom, #f26843, #e74a35);
   border-radius: 25px;
-  padding: 10px 16px;
+  padding: 12px 16px;
   text-align: center;
 }
 
@@ -1948,7 +1926,7 @@ ul.slider-pagination {
 
 .send-btn-email {
   font-family: "Roboto", "Arial", sans-serif;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 16px;
 }
 
@@ -2071,7 +2049,7 @@ input[type="text"]:active {
 }
 
 .user-search:hover .user-search-loupe-picture::before {
-  background: url("../img/icon-find-hover.png") no-repeat
+  background: url("../img/loupe-black.svg") no-repeat
   center center;
 }
 
@@ -2082,7 +2060,7 @@ input[type="text"]:active {
   left: 50%;
   width: 20px;
   height: 20px;
-  background: url("../img/icon-find.png") no-repeat
+  background: url("../img/loupe.svg") no-repeat
   center center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2109,22 +2087,17 @@ input[type="text"]:active {
   font-size: 14px;
   padding: 13px 15px;
   width: 100%;
-  border: 1px solid #d3d3d2;
+  box-shadow: inset 0 0 0 0.2px #d3d3d2;
   border-radius: 3px;
-  outline: none;
 }
 
 .search-form input[type="search"]:hover {
   -webkit-box-shadow: inset 0 0 0 1px #c7c6c5;
           box-shadow: inset 0 0 0 1px #c7c6c5;
-  padding: 12px 14px;
 }
 
 .search-form input[type="search"]:focus {
-  outline: none;
-  border-radius: 3px;
-  border: 2px solid #8fbdec;
-  padding: 12px 14px;
+  box-shadow: inset 0 0 0 2px #8fbdec;
 }
 
 .search-form label {
@@ -2141,8 +2114,6 @@ input[type="text"]:active {
 
 .search-form input[type="search"]:focus + label {
   top: 5px;
-  /* font-size: 11px; */
-  line-height: 13px;
   color: #5b9ddf;
 }
 .user-login-link {
@@ -2167,7 +2138,7 @@ input[type="text"]:active {
   left: 16px;
   width: 21px;
   height: 19px;
-  background: url("../img/icon-enter.png") no-repeat
+  background: url("../img/entrance-white.svg") no-repeat
   center center;
   color: rgba(255, 255, 255, 1);
   z-index: 30;
@@ -2279,9 +2250,7 @@ input[type="text"]:active {
 .user-mail-form input[type="text"],
 .user-mail-form input[type="password"] {
   width: 240px;
-  border: 1px solid #d3d3d2;
   border-radius: 5px;
-  outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2302,6 +2271,11 @@ input[type="text"]:active {
 
 .fat {
   margin-left: 0;
+}
+
+.fat input[type="radio"]:focus + label:before,
+.filter-wrapper input[type="checkbox"]:focus + label:before  {
+    outline: inherit;
 }
 
 .fat input[type="radio"]:checked + label:before {
@@ -2332,7 +2306,7 @@ input[type="text"]:active {
 .catalog-filter-title-two {
   padding-top: 9px;
   padding-bottom: 5px;
-  padding-left: 15.9px;
+  padding-left: 16px;
   font-size: 14px;
 }
 
@@ -2408,7 +2382,6 @@ select::-ms-expand {
 .sort-select:hover {
   color: #000;
   background-image: url("../img/select-arrow-black.svg");
-  outline: none;
 }
 
 .select-list {
@@ -2522,6 +2495,10 @@ select::-ms-expand {
   left: -2px;
   top: 0;
   background-size: contain;
+}
+
+.label-text-one:hover::after {
+  background-color: #ffffff;
 }
 
 .label-text-two {
