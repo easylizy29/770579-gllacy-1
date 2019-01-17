@@ -42,15 +42,15 @@
               <!-- Поиск -->
               <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
                 <input type="search" name="search" id="search" placeholder="Что ищем?" required>
-                <label for="search"></label>
+                <label for="search" class="visually-hidden">Поиск</label>
               </form>
             </li>
             <li class="user user-login">
               <a class="user-login-link user-login-link-enter" href="#">Вход</a>
               <form class="login-links user-mail-form" action="http://echo.htmlacademy.ru" method="post">
-                <label for="user-mail"></label>
+                <label for="user-mail" class="visually-hidden">Почта</label>
                 <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
-                <label for="password-field"></label>
+                <label for="password-field" class="visually-hidden">Пароль</label>
                 <input type="password" name="password-field" id="password-field" placeholder="Пароль" required>
                 <button class="btn btn-entrance" type="submit">Войти</button>
                 <div class="user-mail-links">
@@ -128,7 +128,6 @@
                 <h3 class="catalog-item-title">Сливочное с апельсиновым джемом
           и цитрусовой стружкой</h3></a>
               <a class="goods-item-btn" href="#">Быстрый просмотр</a>
-              <a class="goods-item-background" href="#"></a>
             </li>
             <li class="catalog-item">
               <img class="hit" src="img/hit.svg" width="61" height="61" alt="Хит">
@@ -148,7 +147,6 @@
                 <h3 class="catalog-item-title">Сливочно-кофейное с
           кусочками  шоколада</h3></a>
               <a class="goods-item-btn" href="#">Быстрый просмотр</a>
-              <a class="goods-item-background" href="#"></a>
             </li>
             <li class="catalog-item">
               <img class="hit" src="img/hit.svg" width="61" height="61" alt="Хит">
@@ -168,7 +166,6 @@
                 <h3 class="catalog-item-title">Сливочно-клубничное с
             присыпкой из белого шоколада</h3></a>
               <a class="goods-item-btn" href="#">Быстрый просмотр</a>
-              <a class="goods-item-background" href="#"></a>
             </li>
             <li class="catalog-item">
               <img class="hit" src="img/hit.svg" width="61" height="61" alt="Хит">
@@ -189,7 +186,6 @@
                 <h3 class="catalog-item-title">Сливочное крем-брюле
           с  карамельной подливкой</h3></a>
               <a class="goods-item-btn" href="#">Быстрый просмотр</a>
-              <a class="goods-item-background" href="#"></a>
             </li>
           </ul>
         </section>
@@ -236,17 +232,18 @@
         </div>
       </main>
       <footer class="main-footer">
-        <ul class="social-list footer-socials">
+        <ul class="social-list">
           <li><a class="social-link social-link-tw" href="#" aria-label="Твиттер"></a></li>
           <li><a class="social-link social-link-in" href="#" aria-label="Инстаграм"></a></li>
-          <li><a class="social-link social-link social-link-fb" href="#" aria-label="Фейсбук"></a></li>
-          <li><a class="social-link social-link social-link-vk" href="#" aria-label="Мы Вконтакте"></a></li>
+          <li><a class="social-link social-link-fb" href="#" aria-label="Фейсбук"></a></li>
+          <li><a class="social-link social-link-vk" href="#" aria-label="Мы Вконтакте"></a></li>
         </ul>
+        <div class="heart"></div>
         <ul class="footer-menu">
-          <li class=" footer-menu heart"><a class="footer-menu info-one" href="#">Для поставщиков</a></li>
-          <li><a class="footer-menu info-two" href="#">Наши документы</a></li>
-          <li><a class="footer-menu info-two" href="#">О производстве</a></li>
-          <li><a class="footer-menu info-two" href="#">Экологические стандарты</a></li>
+          <li><a class="info" href="#">Для поставщиков</a></li>
+          <li><a class="info" href="#">Наши документы</a></li>
+          <li><a class="info" href="#">О производстве</a></li>
+          <li><a class="info" href="#">Экологические стандарты</a></li>
         </ul>
         <div class="copyright-link">
           <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
