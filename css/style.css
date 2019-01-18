@@ -69,12 +69,11 @@ a {
   vertical-align: top;
   color: #ffffff;
   text-decoration: none;
-  text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
-  background-image: -webkit-gradient( linear, left top, right top, from(rgb(231,74,53)), to(rgb(242,104,67)));
-  background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  border-radius: 100px;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-          box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  background-size: cover;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
   }
 
 .btn-offer:hover {
@@ -85,10 +84,10 @@ a {
    }
 
 .btn-offer:active {
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-          box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
   }
 
 .slider {
@@ -130,12 +129,12 @@ a {
   color: #ffffff;
   text-decoration: none;
   border-radius: 30px;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #e74b36) , to(#f26843));
-  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
-  -webkit-box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
-          box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
   text-align: center;
   background-size: cover;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
 }
 
 .btn-slide:hover {
@@ -146,9 +145,10 @@ a {
 }
 
 .btn-slide:active {
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
-  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
-          box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .site-wrapper {
@@ -721,10 +721,10 @@ ul.slider-pagination {
 }
 
 .btn-subscribe-one:active {
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-          box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .catalog-list {
@@ -1127,9 +1127,10 @@ ul.slider-pagination {
 }
 
 .btn-contacts:active {
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
-  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
-          box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .footer-contacts  {
@@ -1317,13 +1318,13 @@ ul.slider-pagination {
 
 .img-one {
   position: relative;
-  top: -11px;
+  top: -8px;
   left: -2px;
 }
 
 .img-two {
   position: relative;
-  top: -2px;
+  top: 0px;
   left: -2px;
 }
 
@@ -1360,7 +1361,7 @@ ul.slider-pagination {
 }
 
 .price-table {
-  margin: -10px -2px 0 0;
+  margin: -7px -2px 0 0;
   font-size: 15px;
   font-weight: bold;
 }
@@ -1699,10 +1700,10 @@ ul.slider-pagination {
 }
 
 .btn-subscribe-two:active {
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-          box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .textarea {
@@ -1763,14 +1764,15 @@ ul.slider-pagination {
 .btn-apply:hover {
   background-color: #ffffff;
   color: #000000;
+  padding: 8px 0 7px 0;
 }
 
 .btn-apply:active {
-  border: none;
+  border: 2px solid #999999;
+  color: #000000;
   background-color: rgba(248, 247, 244, 2);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(234, 234, 234, 10) inset;
           box-shadow: 0px 4px 4px 0px rgba(105, 105, 105, 4) inset;
-  color: #000;
 }
 
 .goods-item-btn {
@@ -1838,10 +1840,10 @@ ul.slider-pagination {
 }
 
 .goods-item-btn:active {
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-          box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
-  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+  background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .heart {
@@ -2275,7 +2277,7 @@ input[type="text"]:active {
 
 .fat input[type="radio"]:focus + label:before,
 .filter-wrapper input[type="checkbox"]:focus + label:before  {
-    outline: inherit;
+  outline: auto;
 }
 
 .fat input[type="radio"]:checked + label:before {
