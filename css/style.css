@@ -317,7 +317,8 @@ ul.slider-pagination {
 }
 
 .has-children:hover .sub-menu,
-.sub-menu:hover
+.sub-menu:hover,
+.has-children:focus .sub-menu
  {
   display: block;
 }
@@ -1248,7 +1249,8 @@ ul.slider-pagination {
   text-decoration: underline;
 }
 
-.user:hover .basket-form {
+.user:hover .basket-form,
+.user:focus .basket-form {
   display: block;
 }
 
@@ -2226,14 +2228,16 @@ input[type="text"]:active {
   z-index: 99;
 }
 
-.user:hover .login-links {
+.user:hover .login-links,
+.user:focus .login-links  {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .user:hover .search-form,
-.search-form:hover {
+.search-form:hover,
+.user:focus .search-form, {
   display: block;
 }
 
